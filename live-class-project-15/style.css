@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav img{
+    /* width: 8%; */
+    height: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3 s ease-out;
+    padding-left: 20px;
+}
+nav img:hover{
+    color: red;
+    transform: scale(1.1);
+}
+.nav-list ul li{
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 550;
+    margin: 20px;
+    display: inline-flex;
+}
+ul li:hover{
+    color: red;
+    cursor: pointer;
+}
+.fa-solid{
+    font-size: 33px;
+    padding: 15px;
+    opacity: 0;
+    position: absolute;
+
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13rem;
+}
+.image img{
+    max-width: 400px;
+}
+.text{
+    padding: 5rem 0rem;
+}
+span{
+    color: orangered;
+    font-weight: 900;
+}
+.text h1{
+    color: #fff;
+    font-size: 3.6rem;
+}
+.text p{
+    margin-top: 10px;
+    color: #808080;
+}
+.btn{
+    margin-top: 20px;
+    width: 90px;
+    height: 30px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    outline: none;
+    font-weight: 600;
+}
+.btn:hover{
+    background: #fff;
+    color: red;
+    cursor: pointer;
+}
+#orange-box{
+    color: #fff;
+}
+/* -------------------box------------ */
+.bg-box{
+    position: absolute;
+    background: #333;
+    width: 50%;
+    height: 700px;
+    margin-top: -370px;
+    z-index: -1;
+}
+
+
+/* ---------------- */
+.row{
+    display: flex;
+    padding: 0 12rem;
+    margin-top: 6rem;
+    /* margin: 0 220px; */
+}
+.box{
+    background: hsl(0, 1%, 23%);
+    margin: 0 2rem;
+    padding: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    /* max-width: 90%; */
+}
+.box-logo{
+    width: 4rem;
+    /* margin-bottom: 10px; */
+}
+.row-wrapper{
+    margin-top: 3rem;
+    position: relative;
+}
+.row2{
+    width: 82vw;
+    /* margin-left: 608px; */
+    text-align: center;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+
+}
+.boxx{
+    min-width: 15rem;
+    margin: .75rem;
+    padding: 1rem 3rem;
+    background-color: #3b3a3a;
+}
+.experience{
+    width: 20%;
+    position: absolute;
+    margin: -14% 19%;
+
+}
+.experience h1{
+    font-size: 7rem;
+}
+.box:hover{
+    transform: scale(1.07);
+    box-shadow: 5px 5px 20px 10px rgba(164, 163, 163, 0.2);
+}
+.active{
+    background-color: red;
+    pointer: cursor;
+}
+.box-active-logo{
+    width: 40px;
+}
+.active:hover{
+    background: #3b3a3a;
+}
+.box p{
+    margin-bottom: 3rem;
+}
+
+.boxx:hover{
+    cursor: pointer;
+    color: #fff;
+    transform: scaley(1.2);
+    box-shadow: 5px 5px 20px 10px rgba(164, 163, 163, 0.2);
+
+}
+span:hover{
+    color: #fff;
+}
+/* --------projects---------- */
+.projects{
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.proj h1{
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.proj p{
+    margin-left: 30px;
+
+}
+.project-cards{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 3rem;
+    align-items: center;
+    border-radius: 1.5rem;
+    width: 400px;
+    padding: 1rem;
+    background-color:#3b3a3a;
+
+}
+.card img{
+    border-radius: 1.5rem;
+    width: 100%;
+    padding: 1rem;
+}
+.project-author{
+    /* border: 3px solid red; */
+    padding: 0 3rem;
+}
+.card img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+/* -------------WORK---- */
+.work-banner{
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+.work{
+    width: 78%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3b3a3a;
+    padding: 3rem;
+
+}
+.work-text p{
+    margin-top: 1rem;
+    list-style: 1rem;
+}
+.bottom{
+text-align: center;
+}
+.bottom ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 20px;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    background: #3b3a3a;
+    padding: 1rem 12rem;
+
+
+
+}
+.icon{
+    margin-left: 16rem;
+    align-items: center;
+}
+
+.icon svg{
+    margin: .7rem 1.25rem;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+
+}
+.icon svg:hover{
+    transform: scale(1.3);
+}
+
+@media(max-width: 560.79px){
+    .logo img{
+        display: none;
+    }
+    .nav-list{
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 1;
+        width: 0px;
+        overflow: hidden;
+        background: none;
+    }
+    .active{
+        width: 150px;
+    }
+    .nav ul li{
+        display: inline-block;
+    }
+    .fa-solid{
+        opacity: 1;
+        position: absolute;
+        right: 10px;
+        cursor: pointer;
+    }
+    .cross{
+        color: red;
+    }
+    .hero{
+        margin-top: 80px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .image img{
+        margin-top: -3rem;
+    }
+    .text{
+        width: 100vw;
+        text-align: center;        
+        margin-top: -3rem;
+    }
+    .bg-box{
+        opacity: 0;
+    }
+    
+    .row{
+        flex-direction: column;
+        width: 100vw;
+        align-items: center;
+    }
+    .box{
+        width: 70vw;
+        height: 16rem;
+        margin: 1rem;
+    }
+    .row-wrapper{
+        position: relative;
+
+    }.row-wrapper{
+        margin-top: 9rem;
+    }
+    .row2{
+        width: 100vw;
+        padding: 0 2rem;
+        display: block;
+    }
+    .boxx{
+        margin: 2rem;
+    }
+    .experience{
+        position: absolute;
+        margin-top: -28rem;
+        width: 60%;
+        text-align: center;
+    }
+    .experience h1{
+        font-size: 5rem;
+        margin-top: -5rem;
+    }
+    .projects{
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .project-cards{
+        flex-direction: column;
+    }
+    .work{
+        width: 85%;
+    }
+    .work .btn{
+        margin-top: 5rem;
+    }
+    .footer{
+        margin: 0;
+        padding: 1rem 5rem;
+    }
+    .icon{
+        display: flex;
+        margin-left: 4rem;
+    }
+  
+    
+
+}
+/* -------------------RESPONSIVE---------- */
