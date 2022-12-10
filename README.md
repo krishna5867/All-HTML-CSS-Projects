@@ -11,7 +11,7 @@
 ## Project 09 [Live link](https://developer-landingpage.vercel.app/)
 ## Project 10 [Live link](https://interior-design-landing-page-xi.vercel.app/)
 ## Project 11 [Live link](https://hosting-landingpage.vercel.app/)
-## Project 12 [Live link]https://business-landing-page-phi.vercel.app/
+## Project 12 [Live link](https://business-landing-page-phi.vercel.app/)
 ## Project 13 [Live link](https://saas-landing-page-iota.vercel.app/)
 ## Project 14 [Live link](https://dance-landing-page.vercel.app/)
 ## Project 15 [Live link](https://product-design-landing-pages.vercel.app/)
